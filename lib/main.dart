@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter_widgets/widgets/elevated_button_widget.dart';
+import 'package:flutter_widgets/widgets/icon_button_widget.dart';
 import 'package:flutter_widgets/widgets/outlined_button_widget.dart';
 import 'package:flutter_widgets/widgets/text_button_widget.dart';
 import 'package:flutter_widgets/widgets/text_widget.dart';
@@ -15,7 +16,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: ElevatedButtonWidget(),
+          // child: ElevatedButtonWidget(),
+          child: IconButtonWidget(),
+          // child: OutlinedButtonWidget(),
+          // child: TextButtonWidget(),
+          // child: TextWidget(),
         ),
       ),
     );

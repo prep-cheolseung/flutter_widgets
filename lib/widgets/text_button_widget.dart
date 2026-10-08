@@ -14,7 +14,12 @@ class TextButtonWidget extends StatelessWidget {
               // 버튼 배경 색상
               backgroundColor: Colors.white,
               // 버튼 글자 색상
-              foregroundColor: Colors.red,
+              foregroundColor: Colors.deepPurpleAccent,
+              // 버튼 글자 스타일
+              textStyle: const TextStyle(
+                fontWeight: FontWeight.w700,
+                fontSize: 15.0,
+              ),
             ),
             // 버튼에 들어갈 위젯
             child: Text('Text Button'),
