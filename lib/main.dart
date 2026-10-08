@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'package:flutter_widgets/widgets/text_button_widget.dart';
 import 'package:flutter_widgets/widgets/text_widget.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: TextWidgetExample(),
+          child: TextButtonWidget(),
         ),
       ),
     );

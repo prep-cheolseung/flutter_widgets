@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class TextWidgetExample extends StatelessWidget {
+class TextWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
