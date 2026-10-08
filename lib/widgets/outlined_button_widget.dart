@@ -1,21 +1,20 @@
 import 'package:flutter/material.dart';
 
-class TextButtonWidget extends StatelessWidget {
+class OutlinedButtonWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: TextButton(
+          child: OutlinedButton(
             // 클릭 시 실행
             onPressed: () {},
             // 버튼에 스타일 적용
-            style: TextButton.styleFrom(
-              // 버튼 색상
+            style: OutlinedButton.styleFrom(
               foregroundColor: Colors.red,
             ),
             // 버튼에 들어갈 위젯
-            child: Text('Text Button'),
+            child: Text('Outlined Button'),
           ),
         ),
       ),
