@@ -23,9 +23,9 @@ class ContainerWidget extends StatelessWidget {
               // 배경색 적용
               color: Colors.deepPurpleAccent,
             ),
-            // 너비
+            // 너비 지정
             width: 100.0,
-            // 높이
+            // 높이 지정
             height: 200.0,
           ),
         ),
