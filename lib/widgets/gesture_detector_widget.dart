@@ -12,15 +12,15 @@ class GestureDetectorWidget extends StatelessWidget {
               // 출력 결과
               // Android Studio : [Run] Tap
               // Visual Studio Code : [Debug console] Tap
-              print('On tap');
+              print('On tap!');
             },
             // 두 번 탭 했을 때 실행할 함수
             onDoubleTap: () {
-              print('On double tap');
+              print('On double tap!');
             },
             // 길게 눌렀을 때 실행할 함수
             onLongPress: () {
-              print('On long press');
+              print('On long press!');
             },
             // 제스처를 적용할 위젯
             child: Container(
