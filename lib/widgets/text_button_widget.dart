@@ -7,11 +7,13 @@ class TextButtonWidget extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: TextButton(
-            // 클릭 시 실행
+            // 클릭 시 실행할 함수
             onPressed: () {},
             // 버튼에 스타일 적용
             style: TextButton.styleFrom(
-              // 버튼 색상
+              // 버튼 배경 색상
+              backgroundColor: Colors.white,
+              // 버튼 글자 색상
               foregroundColor: Colors.red,
             ),
             // 버튼에 들어갈 위젯
