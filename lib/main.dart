@@ -6,6 +6,7 @@ import 'package:flutter_widgets/widgets/floating_action_button_widget.dart';
 import 'package:flutter_widgets/widgets/gesture_detector_widget.dart';
 import 'package:flutter_widgets/widgets/icon_button_widget.dart';
 import 'package:flutter_widgets/widgets/outlined_button_widget.dart';
+import 'package:flutter_widgets/widgets/padding_widget.dart';
 import 'package:flutter_widgets/widgets/sized_box_widget.dart';
 import 'package:flutter_widgets/widgets/text_button_widget.dart';
 import 'package:flutter_widgets/widgets/text_widget.dart';
@@ -26,7 +27,8 @@ class MyApp extends StatelessWidget {
           // child: GestureDetectorWidget(),
           // child: IconButtonWidget(),
           // child: OutlinedButtonWidget(),
-          child: SizedBoxWidget(),
+          child: PaddingWidget(),
+          // child: SizedBoxWidget(),
           // child: TextButtonWidget(),
           // child: TextWidget(),
         ),

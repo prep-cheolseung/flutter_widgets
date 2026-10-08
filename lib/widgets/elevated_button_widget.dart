@@ -18,7 +18,7 @@ class ElevatedButtonWidget extends StatelessWidget {
               // 버튼 글자 스타일
               textStyle: const TextStyle(
                 fontWeight: FontWeight.w700,
-                fontSize: 15.0,
+                fontSize: 16.0,
               ),
             ),
             // 버튼에 들어갈 위젯
