@@ -13,6 +13,7 @@ import 'package:flutter_widgets/widgets/padding_widget.dart';
 import 'package:flutter_widgets/widgets/row_widget.dart';
 import 'package:flutter_widgets/widgets/safe_area_widget.dart';
 import 'package:flutter_widgets/widgets/sized_box_widget.dart';
+import 'package:flutter_widgets/widgets/stack_widget.dart';
 import 'package:flutter_widgets/widgets/text_button_widget.dart';
 import 'package:flutter_widgets/widgets/text_widget.dart';
 
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
           // child: ColumnWidget(),
           // child: ContainerWidget(),
           // child: ElevatedButtonWidget(),
-          child: ExpandedWidget(),
+          // child: ExpandedWidget(),
           // child: FlexibleWidget(),
           // child: FloatingActionButtonWidget(),
           // child: GestureDetectorWidget(),
@@ -39,6 +40,7 @@ class MyApp extends StatelessWidget {
           // child: RowWidget(),
           // child: SafeAreaWidget(),
           // child: SizedBoxWidget(),
+          child: StackWidget(),
           // child: TextButtonWidget(),
           // child: TextWidget(),
         ),
