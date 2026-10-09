@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widgets/widgets/column_widget.dart';
 import 'package:flutter_widgets/widgets/container_widget.dart';
 import 'package:flutter_widgets/widgets/elevated_button_widget.dart';
+import 'package:flutter_widgets/widgets/expanded_widget.dart';
 import 'package:flutter_widgets/widgets/flexible_widget.dart';
 import 'package:flutter_widgets/widgets/floating_action_button_widget.dart';
 import 'package:flutter_widgets/widgets/gesture_detector_widget.dart';
@@ -28,7 +29,8 @@ class MyApp extends StatelessWidget {
           // child: ColumnWidget(),
           // child: ContainerWidget(),
           // child: ElevatedButtonWidget(),
-          child: FlexibleWidget(),
+          child: ExpandedWidget(),
+          // child: FlexibleWidget(),
           // child: FloatingActionButtonWidget(),
           // child: GestureDetectorWidget(),
           // child: IconButtonWidget(),
