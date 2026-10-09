@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'package:flutter_widgets/widgets/column_widget.dart';
 import 'package:flutter_widgets/widgets/container_widget.dart';
 import 'package:flutter_widgets/widgets/elevated_button_widget.dart';
 import 'package:flutter_widgets/widgets/floating_action_button_widget.dart';
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Center(
+          child: ColumnWidget(),
           // child: ContainerWidget(),
           // child: ElevatedButtonWidget(),
           // child: FloatingActionButtonWidget(),
@@ -30,7 +32,7 @@ class MyApp extends StatelessWidget {
           // child: IconButtonWidget(),
           // child: OutlinedButtonWidget(),
           // child: PaddingWidget(),
-          child: RowWidget(),
+          // child: RowWidget(),
           // child: SafeAreaWidget(),
           // child: SizedBoxWidget(),
           // child: TextButtonWidget(),
